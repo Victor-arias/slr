@@ -34,35 +34,53 @@ header .slogan
 header .menu
 {
 	list-style: none;
+	margin-left: 220px;
 	margin-top: 35px;
+	width: 315px;
 }
 header .menu li
 {
+	line-height: 1;
 	margin-bottom: 15px;
 }
 header .menu li a
 {
-	-webkit-border-top-left-radius: 15px;
-	-webkit-border-top-right-radius: 15px;
-	-moz-border-radius-topleft: 15px;
-	-moz-border-radius-topright: 15px;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
+	background: #009A00;
+	border-radius: 15px;
+	display: block;
 	color: #FFF;
+	font-size: 20px;
 	padding: 15px 20px;
+	text-transform: uppercase;
 	width: 275px;
+}
+header .menu li a span
+{
+	display: block;
 }
 header .menu li a:hover
 {
 	text-decoration: none;
 }
+header .menu li:first-child a
+{
+	font-size: 25px;
+}
+header .menu li:first-child a span
+{
+	font-size: 40px;
+}
+header .menu li:nth-child(2) a
+{
+	font-size: 23px;
+}
+header .menu li:nth-child(2) a span
+{
+	font-size: 30px;
+}
 header .certificado_responsabilidad
 {
 	text-align: right;
-}
-html
-{
-	height: 100%;
 }
 nav
 {

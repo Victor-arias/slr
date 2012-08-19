@@ -4,12 +4,24 @@
 		"selected_items":
 		[
 			[
-				"i",
-				"italic"
+				"in",
+				"input	Tag"
 			],
 			[
 				"font",
 				"font-style"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"i",
+				"italic"
 			],
 			[
 				"backgro",
@@ -19,6 +31,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/F/Victor/Dropbox/Freelance/Dementecriolla/Formulario/contacto.php",
+			"settings":
+			{
+				"buffer_size": 4238,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Victor/OLD/VA/_PHP/CVA/contacto.php",
+			"settings":
+			{
+				"buffer_size": 3442,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Victor/Dropbox/Freelance/Dementecriolla/Formulario/index.htm",
+			"settings":
+			{
+				"buffer_size": 76309,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -52,6 +88,28 @@
 	},
 	"file_history":
 	[
+		"/F/Victor/Dropbox/Freelance/Dementecriolla/Formulario/js/localization/messages_es.js",
+		"/F/Victor/Dropbox/Freelance/Dementecriolla/Formulario/index.htm",
+		"/F/Victor/Dropbox/Freelance/Dementecriolla/Formulario/preguntas.htm",
+		"/D/Victor/Descargas/jquery-validation-1.9.0/jquery.validate.js",
+		"/D/Victor/Descargas/jquery-validation-1.9.0/lib/jquery.js",
+		"/D/Victor/Descargas/jquery-validation-1.9.0/lib/jquery-1.6.1.js",
+		"/F/Victor/OLD/VA/_PHP/contact/index.php",
+		"/F/Victor/Dropbox/Freelance/Dementecriolla/Formulario/contacto",
+		"/F/Victor/Dropbox/Freelance/Dementecriolla/Formulario/preguntas",
+		"/F/Victor/Dropbox/Freelance/Tekemate/Web-provisional/contacto.php",
+		"/F/Victor/Dropbox/Freelance/Tekemate/Web-provisional/index.php",
+		"/F/Victor/OLD/VA/_PHP/Archivo PHP para enviar correo/contacto.php",
+		"/F/Victor/OLD/VA/_PHP/Archivo PHP para enviar correo/enviar.php",
+		"/F/Victor/OLD/VA/_PHP/Arewaro/cotizar.php",
+		"/F/Victor/Trabajo/Repositorios/slr/templates/va_fundesol/templateDetails.xml",
+		"/F/Victor/Trabajo/Repositorios/slr/templates/va_fundesol/index.php",
+		"/F/Victor/Trabajo/Repositorios/slr/templates/va_fundesol/css/template.css",
+		"/F/Victor/Trabajo/Repositorios/SVMD/templates/va_isvimed/css/template.css",
+		"/F/Victor/Trabajo/Repositorios/slr/templates/va_fundesol/css/bootstrap.min.css",
+		"/F/Victor/Trabajo/Repositorios/SVMD/templates/va_isvimed/index.php",
+		"/F/Victor/Trabajo/Repositorios/slr/templates/va_soleira/index.php",
+		"/F/Victor/Trabajo/Repositorios/slr/templates/va_soleira/templateDetails.xml",
 		"/F/Victor/Trabajo/Repositorios/tkmt/tekemate/views/common/nav.php",
 		"/F/Victor/Trabajo/Repositorios/tkmt/tekemate/config/routes.php",
 		"/F/Victor/Trabajo/Repositorios/tkmt/tekemate/controllers/tekemate.php",
@@ -80,7 +138,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 		]
@@ -90,6 +148,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ú",
+			"ó",
+			"í",
+			"é",
+			"á",
+			"localiza",
+			"20px",
+			"13",
+			"13px",
 			"taille_englobe",
 			"visible",
 			"height",
@@ -101,6 +168,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"&uacute;",
+			"&oacute;",
+			"&iacute;",
+			"&eacute;",
+			"&aacute;",
+			"15px",
 			"video"
 		],
 		"reverse": false,
@@ -112,8 +185,90 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/F/Victor/Dropbox/Freelance/Dementecriolla/Formulario/contacto.php",
+					"settings":
+					{
+						"buffer_size": 4238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								773,
+								773
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/F/Victor/OLD/VA/_PHP/CVA/contacto.php",
+					"settings":
+					{
+						"buffer_size": 3442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								10
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/F/Victor/Dropbox/Freelance/Dementecriolla/Formulario/index.htm",
+					"settings":
+					{
+						"buffer_size": 76309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76290,
+								76290
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 40533.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
