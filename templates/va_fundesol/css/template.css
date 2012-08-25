@@ -8,6 +8,31 @@ body
 	background: -o-linear-gradient(top, #6e761d, #323b1b);
 	height: 100%;
 }
+a.deutch
+{
+	background-color: rgba(255, 255, 255, 0.6);
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	color: #000;
+	display: block;
+	padding: 9px 7px;
+	text-decoration: none;
+}
+a.deutch:hover
+{
+	background: #FFF;
+}
+div.deutch
+{
+	position: absolute;
+	right: 50px;
+	top: 0;
+}
+
 footer
 {
 	clear: both;
@@ -30,6 +55,7 @@ header .slogan
 	color: #00339A;
 	font-size: 30px;
 	font-style: italic;
+	margin-top: 30px;
 }
 header .menu
 {
@@ -45,7 +71,12 @@ header .menu li
 }
 header .menu li a
 {
-	background: #009A00;
+	background-image: linear-gradient(bottom, rgb(0,154,0) 36%, rgb(0,207,0) 90%, rgb(0,154,0) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(0,154,0) 36%, rgb(0,207,0) 90%, rgb(0,154,0) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,154,0) 36%, rgb(0,207,0) 90%, rgb(0,154,0) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,154,0) 36%, rgb(0,207,0) 90%, rgb(0,154,0) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,154,0) 36%, rgb(0,207,0) 90%, rgb(0,154,0) 100%);
+	background-image: -webkit-gradient(linear, left bottom,	left top, color-stop(0.36, rgb(0,154,0)), color-stop(0.9, rgb(0,207,0)), color-stop(1, rgb(0,154,0)));
 	border-radius: 15px;
 	display: block;
 	color: #FFF;
@@ -64,19 +95,80 @@ header .menu li a:hover
 }
 header .menu li:first-child a
 {
-	font-size: 25px;
+	font-size: 35px;
 }
 header .menu li:first-child a span
 {
-	font-size: 40px;
+	font-size: 60px;
 }
 header .menu li:nth-child(2) a
 {
-	font-size: 23px;
+	background-image: linear-gradient(bottom, rgb(247,206,0) 36%, rgb(251,227,89) 90%, rgb(249,217,9) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(247,206,0) 36%, rgb(251,227,89) 90%, rgb(249,217,9) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(247,206,0) 36%, rgb(251,227,89) 90%, rgb(249,217,9) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(247,206,0) 36%, rgb(251,227,89) 90%, rgb(249,217,9) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(247,206,0) 36%, rgb(251,227,89) 90%, rgb(249,217,9) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.36, rgb(247,206,0)),
+		color-stop(0.9, rgb(251,227,89)),
+		color-stop(1, rgb(249,217,9))
+	);
+	color: #1D4A90;
+	font-size: 16px;
 }
 header .menu li:nth-child(2) a span
 {
+	font-size: 35px;
+	text-align: right;
+}
+header .menu li:nth-child(3) a
+{
+	background-image: linear-gradient(bottom, rgb(0,51,154) 36%, rgb(0,85,223) 90%, rgb(0,51,154) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(0,51,154) 36%, rgb(0,85,223) 90%, rgb(0,51,154) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,51,154) 36%, rgb(0,85,223) 90%, rgb(0,51,154) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,51,154) 36%, rgb(0,85,223) 90%, rgb(0,51,154) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,51,154) 36%, rgb(0,85,223) 90%, rgb(0,51,154) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.36, rgb(0,51,154)),
+		color-stop(0.9, rgb(0,85,223)),
+		color-stop(1, rgb(0,51,154))
+	);
 	font-size: 30px;
+}
+header .menu li:nth-child(3) a span
+{
+	font-size: 16px;
+}
+header .menu li:nth-child(4) a
+{
+	background-image: linear-gradient(bottom, rgb(255,0,0) 36%, rgb(255,65,65) 90%, rgb(255,0,0) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(255,0,0) 36%, rgb(255,65,65) 90%, rgb(255,0,0) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,0,0) 36%, rgb(255,65,65) 90%, rgb(255,0,0) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,0,0) 36%, rgb(255,65,65) 90%, rgb(255,0,0) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,0,0) 36%, rgb(255,65,65) 90%, rgb(255,0,0) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.36, rgb(255,0,0)),
+		color-stop(0.9, rgb(255,65,65)),
+		color-stop(1, rgb(255,0,0))
+	);
+
+	font-size: 30px;
+}
+header .menu li:nth-child(4) a span
+{
+	font-size: 12px;
 }
 header .certificado_responsabilidad
 {
@@ -138,8 +230,102 @@ section#content
 	color: #3A3300;
 	font-size: 18px;
 	margin: -1px auto 0;
+	overflow: hidden;
 	padding: 40px;
 	width: 900px;
+}
+section#content a
+{
+	color: #243E90;
+	font-weight: bold;
+}
+section#content img
+{
+	margin-right: 10px;
+}
+section#content .descargar_logosimbolo
+{
+	background: #243E90;
+	border-radius: 10px;
+	clear: both;
+	color: #FFF;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 90px;
+	overflow: hidden;
+	padding: 4px;
+}
+section#content .descargar_logosimbolo a
+{
+	background: #879D45;
+	border: 4px solid #5A7900;
+	border-radius: 10px;
+	color: #FFF;
+	display: block;
+	float: right;
+	font-size: 25px;
+	font-style: italic;
+	padding: 9px 14px;
+	text-decoration: none;
+}
+section#content .descargar_logosimbolo a:hover
+{
+	background: #FFF20F;
+	border-color: #FFF20F;
+	color: #67613A;
+}
+section#content .descargar_logosimbolo span
+{
+	display: block;
+    float: left;
+    margin: 13px 0 0 60px;
+}
+div#aiContactSafe_mainbody_1 div.aiContactSafe_contact_form_field_label_left
+{
+
+}
+.aiContactSafe label
+{
+	font-size: 21px;
+	font-style: italic;
+	font-weight: bold;
+}
+.aiContactSafe .textbox, 
+.aiContactSafe .email, 
+.aiContactSafe .editbox
+{
+	background: #968401;
+	border-color: #6F6101;
+	border-radius: 10px;
+	color: #FFF;
+	font-size: 21px;
+	padding: 15px 13px;
+}
+.aiContactSafe .aiContactSafe_contact_form_field_label_left
+{
+	padding-top: 15px;
+}
+.aiContactSafe .aiContactSafe_row_aics_message .aiContactSafe_contact_form_field_right
+{
+	padding-left: 20px;
+}
+.aiContactSafe .countdown_div
+{
+	display: none;
+}
+.aiContactSafe #aiContactSafeSend
+{
+	float: right !important;
+}
+.aiContactSafe #aiContactSafeSendButton
+{
+	background: #FFF545;
+	border: 3px solid #FFF20F;
+	border-radius: 5px;
+	color: #666139;
+	font-size: 35px;
+	font-style: italic;
+	font-weight: bold;
 }
 .f_left
 {
@@ -148,6 +334,14 @@ section#content
 .f_right
 {
 	float: right;
+}
+.lista_logosimbolo
+{
+	margin-left:330px;
+}
+.lista_logosimbolo li
+{
+	margin-bottom: 20px;
 }
 #header_image
 {
