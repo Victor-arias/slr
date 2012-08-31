@@ -12,10 +12,13 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = 'localhost';
-	public $user = 'root';
-	public $password = '';
-	public $db = 'slr';
+	public $host = 'mysql2.hostmas.net:3306';
+	//public $user = 'root';
+	public $user = 'soleira-web_slr';
+	//public $password = '';
+	public $password = 'asdf1234*';
+	//public $db = 'slr';
+	public $db = 'soleira-web_slr';
 	public $dbprefix = 'slr_';
 	public $live_site = '';
 	public $secret = '2b3pP5MKUctaUb5d';

@@ -4,16 +4,20 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
 				"fon",
 				"font-size"
 			],
 			[
 				"font-s",
 				"font-size"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"paddin",
@@ -59,13 +63,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "templates/va_fundesol/css/template.css",
+			"settings":
+			{
+				"buffer_size": 6052,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/va_fundesol/index.php",
+			"settings":
+			{
+				"buffer_size": 4120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/va_fundesol/css/profile_css_1.css",
+			"settings":
+			{
+				"buffer_size": 4385,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 35.0,
+		"height": 288.0,
 		"selected_items":
 		[
+			[
+				"line",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"Install",
 				"Package Control: Install Package"
@@ -92,9 +124,13 @@
 	},
 	"file_history":
 	[
+		"/F/Victor/Trabajo/Repositorios/slr/templates/va_fundesol/css/profile_css_1.css",
+		"/C/Users/Victor/AppData/Local/Temp/Rar$DR04.069/sprites.css",
+		"/C/Users/Victor/AppData/Local/Temp/Rar$DR03.108/stylesheet.css",
+		"/F/Victor/Trabajo/Repositorios/slr/templates/va_fundesol/css/template.css",
+		"/F/Victor/Trabajo/Repositorios/slr/configuration.php",
 		"/F/Victor/Trabajo/Repositorios/slr/templates/va_fundesol/css/editor.css",
 		"/F/Victor/Trabajo/Repositorios/slr/components/com_aicontactsafe/views/message/tmpl/message.php",
-		"/F/Victor/Trabajo/Repositorios/slr/templates/va_fundesol/css/template.css",
 		"/F/Victor/Dropbox/Freelance/Dementecriolla/Formulario/index.htm",
 		"/F/Victor/OLD/VA/_PHP/CVA/contacto.php",
 		"/F/Victor/Dropbox/Freelance/Dementecriolla/Formulario/contacto.php",
@@ -156,6 +192,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"320px",
+			"240px",
 			"send",
 			"ú",
 			"ó",
@@ -177,6 +215,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"500px",
+			"320px",
 			"&uacute;",
 			"&oacute;",
 			"&iacute;",
@@ -194,8 +234,90 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "templates/va_fundesol/css/template.css",
+					"settings":
+					{
+						"buffer_size": 6052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5834,
+								5834
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8233.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/va_fundesol/index.php",
+					"settings":
+					{
+						"buffer_size": 4120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3453,
+								3453
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/va_fundesol/css/profile_css_1.css",
+					"settings":
+					{
+						"buffer_size": 4385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1702,
+								1702
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 864.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

@@ -5,7 +5,7 @@ JHtml::_('behavior.framework', true);
 $app			= JFactory::getApplication();
 $doc			= JFactory::getDocument();
 //SLIDER
-$slidePath = 'images/encabezado';
+/*$slidePath = 'images/encabezado';
 $slides = array();
 if (is_dir(JPATH_ROOT.DS.$slidePath)) {
     $files = JFolder::files(JPATH_ROOT.DS.$slidePath, '(.\.jpg)|(.\.png)');
@@ -32,7 +32,7 @@ $urls = '';
 foreach($slides as $slide){
 	$urls .= '"' . $slide->image . '", ';
 }
-$urls = substr(trim($urls), 0, -1);
+$urls = substr(trim($urls), 0, -1);*/
 ?>
 <!doctype html>
 <html lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>" >
@@ -45,6 +45,7 @@ $urls = substr(trim($urls), 0, -1);
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/bootstrap.min.css">
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/bootstrap-responsive.min.css">
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css">
+		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/jquery.fancybox.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 		<!--[if lte IE 6]>
 			<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/ieonly.css" rel="stylesheet" type="text/css" />
@@ -54,29 +55,12 @@ $urls = substr(trim($urls), 0, -1);
 		<![endif]-->
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/bootstrap/bootstrap.min.js"></script>
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/libs/jquery.fancybox.pack.js"></script>
 		<script>
 		$(document).ready(function() {
 			$('body').append('<div id="header_image"><div id="header_image_image"></div></div>');
-			var imgArr = new Array( // relative paths of images
-				<?php echo $urls; ?>
-			);
-			var preloadArr = new Array();
-			var i;
-			 
-			/* preload images */
-			for(i=0; i < imgArr.length; i++){
-				preloadArr[i] = new Image();
-				preloadArr[i].src = imgArr[i];
-			}
-			var currImg = 1;
-			var intID = setInterval(changeImg, 6000);
-			$('#header_image_image').css('background','url(' + preloadArr[currImg%preloadArr.length].src +') top center no-repeat');
-			/* image rotator */
-			function changeImg(){
-				$('#header_image_image').animate({opacity: 0}, 1000, function(){
-				$(this).css('background','url(' + preloadArr[currImg++%preloadArr.length].src +') top center no-repeat');
-				}).animate({opacity: 1}, 500);
-			}
+			$('#header_image_image').css('background','url(images/encabezado/fundesol.jpg) top center no-repeat');
+			$("a.pop_up").fancybox();
 		});
 		</script>
 	</head>
